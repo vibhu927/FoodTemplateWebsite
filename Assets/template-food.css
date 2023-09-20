@@ -1,0 +1,42 @@
+.text-gray
+{
+    color: #727272;
+}
+.navbar a:hover, select:hover{
+       color: black;
+       border-bottom: 3px solid red;
+       transition: .1s ease-in-out;
+       cursor: pointer;
+}
+.bg-gray{
+    background-color: #eeeeee;
+}
+.c1 img{
+    width: 520px;
+}
+.icon{
+    width: 10px;
+}
+.watch:hover{
+    cursor: pointer;
+     color:red;
+}
+.fnt{
+    font-family:'Shadows Into Light', cursive;
+}
+body{
+   background-image: url('./Img/strawberry.jpg');
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+}
+.c3{
+    background: rgba(0, 0, 0, .5);
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.footer{
+    background-color: rgb(31 31 36);
+}
